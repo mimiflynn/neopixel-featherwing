@@ -30,7 +30,6 @@ while True:
             d = i * 8
             e = d + col
             pixels[e] = RED
-            time.sleep(.05)
+        time.sleep(1)
         pixels.fill(BLACK)
-        time.sleep(.05)
     
